@@ -3,6 +3,18 @@ footer {
   text-align: center;
   background-color: blue;
 }
+.cimage {
+  height:100%;
+  width: 100%;
+}
+.cardtext {
+  font-size: 2em;
+  margin-top: 50%;
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
 
 @media screen and (max-width:768px){
   /* make the text center */
