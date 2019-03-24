@@ -7,14 +7,23 @@ footer {
   height:100%;
   width: 100%;
 }
+
+.cimage:hover .cardtext {
+  background-color: red;
+  display: block;
+}
 .cardtext {
   font-size: 2em;
   margin-top: 50%;
   text-align: center;
   background-color: blue;
   color: white;
+  display: none;
 }
 
+.card-img-overlay {
+  padding: 0;
+}
 
 @media screen and (max-width:768px){
   /* make the text center */
